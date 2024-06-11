@@ -1,7 +1,8 @@
 ﻿using System;
 
-namespace Response
+namespace JsonData
 {
+    [Serializable]
     public class DialogueResponse
     {
         public string id;
