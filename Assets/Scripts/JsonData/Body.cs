@@ -1,12 +1,12 @@
 ﻿using System;
-using UnityEngine;
+using System.Collections.Generic;
 
 namespace JsonData
 {
     [Serializable]
     public class Body
     {
-        public Message[] messages;
+        public List<Message> messages;
         public float temperature;
         public float top_p;
         public float penalty_score;

@@ -672,7 +672,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: PFC_SAVE_JSON;PFC_LOG_INFO;PFC_LOG_WARNING;PFC_LOG_ERROR
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
