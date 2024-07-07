@@ -23,8 +23,6 @@ namespace Agent
             {
                 Timeout = -1
             };
-        
-            body = SaveSystem.Load<Body>("1");
         }
 
         public void SendMessageToAI(string content)
